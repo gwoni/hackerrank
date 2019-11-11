@@ -1,16 +1,18 @@
 plugins {
     id 'java'
+    id 'war'
 }
 
 group 'tech.etoos.com'
 version '1.0-SNAPSHOT'
-
 sourceCompatibility = 1.8
+targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.hamcrest:hamcrest-library:1.3'
 }
