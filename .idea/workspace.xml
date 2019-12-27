@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25ccea51-5db9-4ea0-8796-c2542b89c8e3" name="Default Changelist" comment="first commit">
+    <list default="true" id="25ccea51-5db9-4ea0-8796-c2542b89c8e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577447800097</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1577448977161</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577448977161</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1577449087381</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577449087381</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,10 +169,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="121" y="113" width="1252" height="927" key="CommitChangelistDialog2" timestamp="1577448976202">
+    <state x="121" y="113" width="1252" height="927" key="CommitChangelistDialog2" timestamp="1577449086627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="121" y="113" width="1252" height="927" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577448976202" />
+    <state x="121" y="113" width="1252" height="927" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577449086627" />
     <state width="1877" height="308" key="GridCell.Tab.0.bottom" timestamp="1577447813524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
