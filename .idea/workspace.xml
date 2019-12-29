@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25ccea51-5db9-4ea0-8796-c2542b89c8e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +27,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RunManager" selected="Gradle.Week01Test.solveMeFirstTest">
@@ -153,7 +156,9 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -169,6 +174,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1577601741906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1577601741906" />
     <state x="121" y="113" width="1252" height="927" key="CommitChangelistDialog2" timestamp="1577449086627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -189,18 +198,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577447813524" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1577448763388">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1577601888827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577448763388" />
+    <state x="461" y="162" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1577601888827" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1577448807628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577448807628" />
-    <state x="657" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1577436398960">
+    <state x="657" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1577602245584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="657" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577436398960" />
+    <state x="657" y="344" key="com.intellij.ide.util.TipDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1577602245584" />
     <state x="666" y="311" key="git4idea.merge.GitPullDialog" timestamp="1577448783364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
