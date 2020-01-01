@@ -2,10 +2,7 @@ package week1101;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
-import java.util.Locale;
+import java.util.*;
 
 public class Week01 {
 
@@ -120,5 +117,23 @@ public class Week01 {
         }
         SimpleDateFormat dt1 = new SimpleDateFormat("HH:mm:ss");
         return dt1.format(date).toString();
+    }
+
+
+    public List<Integer> roundConversion(List<Integer> grades) {
+        List<Integer> result = new ArrayList<>(grades.get(0));
+
+        int multiple = 5;
+        for (int idx = 1; idx <= grades.get(0); idx++) {
+            int grade = grades.get(idx);
+            int nextMultiple = (grade / multiple + 1) * multiple;
+            if (grade >= 38 && 3 > nextMultiple - grade)
+                result.add(nextMultiple);
+            else {
+                result.add(grade);
+            }
+        }
+
+        return result;
     }
 }

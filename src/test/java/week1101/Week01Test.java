@@ -134,4 +134,18 @@ public class Week01Test {
         String result = week01.timeConversion(s);
         assertThat(result, is(expected));
     }
+
+    /**
+     * See https://www.hackerrank.com/challenges/grading/problem
+     */
+    @Test
+    public void roundConversion() {
+        List<Integer> a = Arrays.asList(4,73,67,38,33);
+        List<Integer> expected = Arrays.asList(75,67,40,33);
+
+        List<Integer> result = week01.roundConversion(a);
+
+        compareTheTripletsComparator(expected, result);
+    }
+
 }
