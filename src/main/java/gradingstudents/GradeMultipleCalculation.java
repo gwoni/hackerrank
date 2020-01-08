@@ -1,4 +1,4 @@
-package algorithm.gradingstudents;
+package gradingstudents;
 
 public class GradeMultipleCalculation implements GradeCalculation{
     private static final int modulationValue = 5;

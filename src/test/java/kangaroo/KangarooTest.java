@@ -6,7 +6,7 @@ import org.junit.Test;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class Kangaroo {
+public class KangarooTest {
     private Kangaroo kangaroo;
 
     @Before
@@ -16,11 +16,8 @@ public class Kangaroo {
 
     @Test
     public void kangarooTest() {
-        int x1 = 0;
-        int v1 = 3;
-        int x2 = 4;
-        int v2 = 2;
-        String result = kangaroo.solve(x1, v1, x2, v2);
+        int [] intArray = { 0, 3, 4, 2 };
+        String result = kangaroo.solve(intArray[0], intArray[1], intArray[2], intArray[3]);
         String ecpected = "YES";
         assertThat(result, is(ecpected));
     }

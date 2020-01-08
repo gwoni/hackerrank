@@ -1,7 +1,4 @@
-package gradingstudents;
-
-import java.util.ArrayList;
-import java.util.List;
+package kangaroo;
 
 public class Kangaroo {
 

@@ -1,4 +1,4 @@
-package algorithm.gradingstudents;
+package gradingstudents;
 
 class GradeCalculationFactory {
     static GradeCalculation getGradeCalcurator() {
