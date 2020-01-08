@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25ccea51-5db9-4ea0-8796-c2542b89c8e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/week1101/Week01.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/week1101/Week01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/week1101/Week01Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/week1101/Week01Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/week1101.Week01Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/week1101.Week01Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/week1101.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/week1101.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-week1101.Week01Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-week1101.Week01Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week1101/Week01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1101/Week01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week1101/Week01Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week1101/Week01Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +48,33 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.Week01Test.solveMeFirstTest">
+  <component name="RunManager" selected="Gradle.Week01Test.roundConversion">
     <configuration name="Week01Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;week1101.Week01Test&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Week01Test.roundConversion" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;week1101.Week01Test.roundConversion&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -74,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Week01Test.roundConversion" />
         <item itemvalue="Gradle.Week01Test.solveMeFirstTest" />
         <item itemvalue="Gradle.Week01Test" />
       </list>
@@ -182,22 +220,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="121" y="113" width="1252" height="927" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577449086627" />
-    <state width="1877" height="308" key="GridCell.Tab.0.bottom" timestamp="1577447813524">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1357" height="217" key="GridCell.Tab.0.bottom" timestamp="1577870221755">
+      <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577447813524" />
-    <state width="1877" height="308" key="GridCell.Tab.0.center" timestamp="1577447813524">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1357" height="217" key="GridCell.Tab.0.bottom/0.0.1400.1010@0.0.1400.1010" timestamp="1577870221755" />
+    <state width="1877" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577623743058" />
+    <state width="1357" height="217" key="GridCell.Tab.0.center" timestamp="1577870221755">
+      <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577447813524" />
-    <state width="1877" height="308" key="GridCell.Tab.0.left" timestamp="1577447813524">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1357" height="217" key="GridCell.Tab.0.center/0.0.1400.1010@0.0.1400.1010" timestamp="1577870221755" />
+    <state width="1877" height="226" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577623743058" />
+    <state width="1357" height="217" key="GridCell.Tab.0.left" timestamp="1577870221754">
+      <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577447813524" />
-    <state width="1877" height="308" key="GridCell.Tab.0.right" timestamp="1577447813524">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1357" height="217" key="GridCell.Tab.0.left/0.0.1400.1010@0.0.1400.1010" timestamp="1577870221754" />
+    <state width="1877" height="226" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577623743050" />
+    <state width="1357" height="217" key="GridCell.Tab.0.right" timestamp="1577870221755">
+      <screen x="0" y="0" width="1400" height="1010" />
     </state>
-    <state width="1877" height="308" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577447813524" />
+    <state width="1357" height="217" key="GridCell.Tab.0.right/0.0.1400.1010@0.0.1400.1010" timestamp="1577870221755" />
+    <state width="1877" height="226" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577623743058" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1577601888827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
