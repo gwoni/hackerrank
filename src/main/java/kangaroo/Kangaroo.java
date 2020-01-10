@@ -23,8 +23,7 @@ public class Kangaroo {
      * @return  두 캥거루가 만날 조건 확인
      */
     public boolean limitationCheck(int v1, int v2){
-        if(v1 < v2 || v1 == v2) return true;
-        else return false;
+        return(v1 < v2 || v1 == v2);
     }
 
     /**
@@ -36,7 +35,6 @@ public class Kangaroo {
      * @return 두 캥거루가 만날 수 있는지  true, false
      */
     public boolean sameTimeSite(int x1, int v1, int x2, int v2){
-        if((x2 - x1) % (v1 - v2) == 0 ) return true;
-        else return false;
+        return ((x2 - x1) % (v1 - v2) == 0);
     }
 }
