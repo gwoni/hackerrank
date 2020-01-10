@@ -1,4 +1,4 @@
-package gradingstudents;
+package algorithm.gradingstudents;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -22,4 +22,5 @@ public class GradingStudentsTest {
         List<Integer> result = gradingStudents.solve(param);
         TestUtil.listComparator(expected, result);
     }
+
 }

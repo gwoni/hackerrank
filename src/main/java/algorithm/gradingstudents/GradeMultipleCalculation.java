@@ -1,6 +1,6 @@
-package gradingstudents;
+package algorithm.gradingstudents;
 
-public class GradeMultipleCalculation implements GradeCalculation{
+public class GradeMultipleCalculation implements GradeCalculation {
     private static final int modulationValue = 5;
     private static final int baseModificationValue = 3;
     private static final int failGrade = 40;

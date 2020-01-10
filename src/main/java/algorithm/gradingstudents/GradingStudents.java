@@ -1,4 +1,4 @@
-package gradingstudents;
+package algorithm.gradingstudents;
 
 import java.util.ArrayList;
 import java.util.List;
