@@ -1,4 +1,5 @@
 package dayOfTheProgrammer;
 
-public class DayOfTheProgrammer {
+public interface DayOfTheProgrammer {
+    String solve(int year);
 }
