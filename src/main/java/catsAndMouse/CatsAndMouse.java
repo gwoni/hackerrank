@@ -1,6 +1,10 @@
 package catsAndMouse;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class CatsAndMouse {
+    private Logger logger = LogManager.getLogger(this.getClass());
     /**
      *
      * @param x A 고양이 위치
@@ -12,6 +16,7 @@ public class CatsAndMouse {
         validator(x);
         validator(y);
         validator(z);
+        logger.debug("validator 완료");
         return isEscapeMouse(x, y, z) ? "Mouse C" : getFirstReachCat(x, y, z);
     }
 
@@ -20,10 +25,11 @@ public class CatsAndMouse {
      * @param pos 위치가 제약사항에 부합하는지 체크 ( 1 <= x, y, z <= 100 )
      */
     private void validator(int pos) {
-        if (pos < 0 || pos > 100)
+        if (pos < 0 || pos > 100) {
+            logger.error("POSITION_OUT_OF_LIMIT");
             throw new RuntimeException("POSITION_OUT_OF_LIMIT");
+        }
     }
-
     /**
      *
      * @param x A 고양이 위치

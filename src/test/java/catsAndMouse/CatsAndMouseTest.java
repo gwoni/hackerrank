@@ -45,8 +45,6 @@ public class CatsAndMouseTest {
     @Test(expected = RuntimeException.class)
     public void TestThreeHigherException(){
         List<Integer> posArr = Arrays.asList(101, 3, 2); //A ,B 고양이와 C 쥐의 위치 값
-        String ecpected="Cat B";
         String result = catsAndMouse.solve(posArr.get(0), posArr.get(1), posArr.get(2));
-        assertThat(result, is(ecpected));
     }
 }
