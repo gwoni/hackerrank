@@ -23,25 +23,16 @@ public class CircularArrayRotationTest {
      * 1
      */
     public void TestOne() {
-        //List<Integer> posArr = Arrays.asList(1, 2, 3);
-       // String ecpected = "Cat B";
-       // String result = "";
-
-
+        CircularArrayRotation circularArrayRotation = new CircularArrayRotation();
         int n = 3;
-
         int k = 2;
-
         int q = 3;
 
-        int[] a = new int[] {1, 2, 3};
+        int[] a = new int[] {1, 2, 3};  //회전 할 정수 배열
+        int[] queries = new int[] {0, 1, 2};    //정수 배열 보고할 인덱스
+        int[] ecpected = new int[] {2, 3, 1};   // 예상되는 값
+        int[] result = circularArrayRotation.solve(a, k, queries);
 
-        int[] queries = new int[] {0, 1, 2};
-
-        int[] result = CircularArrayRotation.circularArrayRotation(a, k, queries);
-
-        int[] ecpected = new int[] {2, 3, 1};
-
-
+        TestUtil.intComparator(ecpected, result);
     }
 }

@@ -13,4 +13,11 @@ public class TestUtil<T> {
             MatcherAssert.assertThat(result.get(idx), CoreMatchers.is(expected.get(idx)));
         }
     }
+
+    public static void intComparator(int[] expected, int[] result) {
+        MatcherAssert.assertThat(result.length, CoreMatchers.is(expected.length));
+        for (int idx = 0; idx < expected.length; idx++) {
+            MatcherAssert.assertThat(result[idx], CoreMatchers.is(expected[idx]));
+        }
+    }
 }
