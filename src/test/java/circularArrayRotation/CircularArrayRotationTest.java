@@ -10,6 +10,7 @@ public class CircularArrayRotationTest {
 
     @Test
     /**
+     * https://www.hackerrank.com/challenges/circular-array-rotation/problem
      * input
      * 3 2 3
      * 1 2 3
