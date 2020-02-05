@@ -24,15 +24,15 @@ public class CircularArrayRotationTest {
      */
     public void TestOne() {
         CircularArrayRotation circularArrayRotation = new CircularArrayRotation();
-        int n = 3;
-        int k = 2;
-        int q = 3;
+        int n = 3;  //회절 할 정수 크기
+        int k = 2;  //회전 횟수
+        int q = 3;  //질문 횟수
 
         int[] a = new int[] {1, 2, 3};  //회전 할 정수 배열
         int[] queries = new int[] {0, 1, 2};    //정수 배열 보고할 인덱스
         int[] ecpected = new int[] {2, 3, 1};   // 예상되는 값
         int[] result = circularArrayRotation.solve(a, k, queries);
 
-        TestUtil.intComparator(ecpected, result);
+        TestUtil.intComparator(ecpected, result);   //  int 배열 비교
     }
 }
